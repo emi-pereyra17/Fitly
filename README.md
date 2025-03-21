@@ -15,7 +15,10 @@ Este es un proyecto de escritorio desarrollado con **Java Swing** y **JPA** para
 - ✅ **Swing** (para la interfaz gráfica de usuario)
 - ✅ **JPA (Java Persistence API)** con **EclipseLink** (para la conexión y gestión de la base de datos MySQL)
 - ✅ **MySQL** (Base de datos local)
-- ✅ **Arquitectura por capas** (Controller - Service - Repository)
+- ✅ **Arquitectura en capas:** 
+  - **IGU** (Interfaz Gráfica de Usuario)
+  - **Controladora** (Lógica de negocios)
+  - **Persistencia** (Acceso a la base de datos)
 
 ## 🛠️ **Instalación y configuración**
 
