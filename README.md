@@ -13,7 +13,7 @@ Este es un proyecto de escritorio desarrollado con **Java Swing** y **JPA** para
 ## ⚙️ **Tecnologías utilizadas**
 - ✅ **Java 17**
 - ✅ **Swing** (para la interfaz gráfica de usuario)
-- ✅ **JPA (Java Persistence API)** con **Hibernate** (para la conexión y gestión de la base de datos MySQL)
+- ✅ **JPA (Java Persistence API)** con **EclipseLink** (para la conexión y gestión de la base de datos MySQL)
 - ✅ **MySQL** (Base de datos local)
 - ✅ **Arquitectura por capas** (Controller - Service - Repository)
 
@@ -24,7 +24,7 @@ Este es un proyecto de escritorio desarrollado con **Java Swing** y **JPA** para
    ```bash
    git clone https://github.com/emi-pereyra17/Fitly.git
    
-2. **Configurar la base de datos MySQL**:
+ 2. **Configurar la base de datos MySQL**:
    - Crea una base de datos llamada `fitly` en MySQL (si aún no lo has hecho).
    - Configura la conexión a la base de datos en el archivo `application.properties` (en el paquete de configuración, si lo tienes), con los siguientes parámetros:
      ```properties
@@ -32,6 +32,7 @@ Este es un proyecto de escritorio desarrollado con **Java Swing** y **JPA** para
      spring.datasource.username=root
      spring.datasource.password=tu_contraseña
      spring.jpa.hibernate.ddl-auto=update
+     spring.jpa.properties.javax.persistence.provider=org.eclipse.persistence.jpa.PersistenceProvider
      ```
 
 ## 👨‍💻 **Autor**
