@@ -19,7 +19,12 @@ Este es un proyecto de escritorio desarrollado con **Java Swing** y **JPA** para
 
 ## 🛠️ **Instalación y configuración**
 
-### **Configurar la base de datos MySQL**:
+1. **Clonar el repositorio**:
+   Para comenzar, clona el repositorio en tu máquina local usando el siguiente comando:
+   ```bash
+   git clone https://github.com/emi-pereyra17/Fitly.git
+   
+2. **Configurar la base de datos MySQL**:
    - Crea una base de datos llamada `fitly` en MySQL (si aún no lo has hecho).
    - Configura la conexión a la base de datos en el archivo `application.properties` (en el paquete de configuración, si lo tienes), con los siguientes parámetros:
      ```properties
