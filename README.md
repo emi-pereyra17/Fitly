@@ -26,7 +26,7 @@ Este es un proyecto de escritorio desarrollado con **Java Swing** y **JPA** para
    
  2. **Configurar la base de datos MySQL**:
    - Crea una base de datos llamada `fitly` en MySQL (si aún no lo has hecho).
-   - Configura la conexión a la base de datos en el archivo `application.properties` (en el paquete de configuración, si lo tienes), con los siguientes parámetros:
+   - Configura la conexión a la base de datos en el archivo `application.properties` con los siguientes parámetros:
      ```properties
      spring.datasource.url=jdbc:mysql://localhost:3306/fitly
      spring.datasource.username=root
